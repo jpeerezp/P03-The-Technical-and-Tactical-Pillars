@@ -1,4 +1,4 @@
-# P03 · The Tactical Pillar
+# P03 · The Technical & Tactical Pillars
 
 **Section:** 01 — The Digital Twin Foundation
 

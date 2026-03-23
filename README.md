@@ -95,8 +95,7 @@ This prompt generates the individualized technical and tactical data cards requi
 * **Next step:** P04 (Cognitive and Emotional Pillars) introduction.
 
 ```
-MD+1 Event Data → [P03 runs] → Individual Technical and Tactical Profile Created → Layered onto P01 Shell
-→ P04 Introduction
+MD+1 Event Data → [P03 runs] → Individual Technical and Tactical Profile Created → Layered onto P01 Shell → P04 Introduction
 ```
 
 ---

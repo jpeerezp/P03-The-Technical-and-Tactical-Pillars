@@ -186,6 +186,393 @@ Data in JSON
 
 **Result:** After running the prompt twice, model introduced modular, individual tactical tables that map directly to the "Digital Twin".
 
+**Output:** 
+
+```
+{
+  "technical_tactical_readiness_report": {
+    "matchday_context": "Matchday 2 Preparation (Data from Matchday 1 & Post-Game Week 1)",
+    "pillar": "Technical and Tactical Readiness",
+    "player_profiles": [
+      {
+        "player_id": "824001",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "GK",
+          "progressive_passes": 8,
+          "expected_threat_xt": 0.04,
+          "pass_completion_under_pressure_pct": 88,
+          "successful_dribbles": 0,
+          "box_entries": 0,
+          "heatmap_avg_position": "Box",
+          "packing_rate": 12,
+          "defensive_compactness_pct": 95,
+          "pressing_triggers": 1,
+          "inter_line_movements": 0
+        }
+      },
+      {
+        "player_id": "824002",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "RB",
+          "progressive_passes": 14,
+          "expected_threat_xt": 0.18,
+          "pass_completion_under_pressure_pct": 78,
+          "successful_dribbles": 3,
+          "box_entries": 4,
+          "heatmap_avg_position": "High-Wide",
+          "packing_rate": 48,
+          "defensive_compactness_pct": 82,
+          "pressing_triggers": 14,
+          "inter_line_movements": 8
+        }
+      },
+      {
+        "player_id": "824003",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "CB",
+          "progressive_passes": 11,
+          "expected_threat_xt": 0.08,
+          "pass_completion_under_pressure_pct": 91,
+          "successful_dribbles": 0,
+          "box_entries": 0,
+          "heatmap_avg_position": "Mid-Deep",
+          "packing_rate": 32,
+          "defensive_compactness_pct": 94,
+          "pressing_triggers": 6,
+          "inter_line_movements": 2
+        }
+      },
+      {
+        "player_id": "824004",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "CB",
+          "progressive_passes": 9,
+          "expected_threat_xt": 0.05,
+          "pass_completion_under_pressure_pct": 93,
+          "successful_dribbles": 0,
+          "box_entries": 1,
+          "heatmap_avg_position": "Mid-Deep",
+          "packing_rate": 28,
+          "defensive_compactness_pct": 96,
+          "pressing_triggers": 5,
+          "inter_line_movements": 1
+        }
+      },
+      {
+        "player_id": "824005",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "LB",
+          "progressive_passes": 12,
+          "expected_threat_xt": 0.22,
+          "pass_completion_under_pressure_pct": 76,
+          "successful_dribbles": 4,
+          "box_entries": 5,
+          "heatmap_avg_position": "High-Wide",
+          "packing_rate": 41,
+          "defensive_compactness_pct": 80,
+          "pressing_triggers": 12,
+          "inter_line_movements": 9
+        }
+      },
+      {
+        "player_id": "824006",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "CDM",
+          "progressive_passes": 18,
+          "expected_threat_xt": 0.15,
+          "pass_completion_under_pressure_pct": 86,
+          "successful_dribbles": 1,
+          "box_entries": 2,
+          "heatmap_avg_position": "Center-Mid",
+          "packing_rate": 65,
+          "defensive_compactness_pct": 91,
+          "pressing_triggers": 22,
+          "inter_line_movements": 12
+        }
+      },
+      {
+        "player_id": "824007",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "CM",
+          "progressive_passes": 22,
+          "expected_threat_xt": 0.29,
+          "pass_completion_under_pressure_pct": 84,
+          "successful_dribbles": 2,
+          "box_entries": 6,
+          "heatmap_avg_position": "Box-to-Box",
+          "packing_rate": 78,
+          "defensive_compactness_pct": 88,
+          "pressing_triggers": 19,
+          "inter_line_movements": 15
+        }
+      },
+      {
+        "player_id": "824008",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "CM",
+          "progressive_passes": 25,
+          "expected_threat_xt": 0.31,
+          "pass_completion_under_pressure_pct": 81,
+          "successful_dribbles": 3,
+          "box_entries": 5,
+          "heatmap_avg_position": "Box-to-Box",
+          "packing_rate": 82,
+          "defensive_compactness_pct": 85,
+          "pressing_triggers": 17,
+          "inter_line_movements": 14
+        }
+      },
+      {
+        "player_id": "824009",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "RW",
+          "progressive_passes": 7,
+          "expected_threat_xt": 0.35,
+          "pass_completion_under_pressure_pct": 72,
+          "successful_dribbles": 6,
+          "box_entries": 8,
+          "heatmap_avg_position": "Final-Third",
+          "packing_rate": 39,
+          "defensive_compactness_pct": 75,
+          "pressing_triggers": 15,
+          "inter_line_movements": 11
+        }
+      },
+      {
+        "player_id": "824010",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "ST",
+          "progressive_passes": 4,
+          "expected_threat_xt": 0.12,
+          "pass_completion_under_pressure_pct": 68,
+          "successful_dribbles": 2,
+          "box_entries": 9,
+          "heatmap_avg_position": "High-Central",
+          "packing_rate": 18,
+          "defensive_compactness_pct": 70,
+          "pressing_triggers": 11,
+          "inter_line_movements": 6
+        }
+      },
+      {
+        "player_id": "824011",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "LW",
+          "progressive_passes": 10,
+          "expected_threat_xt": 0.28,
+          "pass_completion_under_pressure_pct": 75,
+          "successful_dribbles": 5,
+          "box_entries": 7,
+          "heatmap_avg_position": "Final-Third",
+          "packing_rate": 34,
+          "defensive_compactness_pct": 78,
+          "pressing_triggers": 13,
+          "inter_line_movements": 10
+        }
+      },
+      {
+        "player_id": "824012",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "CM",
+          "progressive_passes": 6,
+          "expected_threat_xt": 0.09,
+          "pass_completion_under_pressure_pct": 85,
+          "successful_dribbles": 1,
+          "box_entries": 2,
+          "heatmap_avg_position": "Center-Mid",
+          "packing_rate": 11,
+          "defensive_compactness_pct": 88,
+          "pressing_triggers": 6,
+          "inter_line_movements": 4
+        }
+      },
+      {
+        "player_id": "824013",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "RB",
+          "progressive_passes": 3,
+          "expected_threat_xt": 0.04,
+          "pass_completion_under_pressure_pct": 80,
+          "successful_dribbles": 1,
+          "box_entries": 1,
+          "heatmap_avg_position": "Mid-Wide",
+          "packing_rate": 7,
+          "defensive_compactness_pct": 90,
+          "pressing_triggers": 4,
+          "inter_line_movements": 2
+        }
+      },
+      {
+        "player_id": "824014",
+        "digital_twin_status": "Active",
+        "technical_tactical_readiness_table": {
+          "position": "LW",
+          "progressive_passes": 2,
+          "expected_threat_xt": 0.02,
+          "pass_completion_under_pressure_pct": 82,
+          "successful_dribbles": 1,
+          "box_entries": 1,
+          "heatmap_avg_position": "High-Wide",
+          "packing_rate": 3,
+          "defensive_compactness_pct": 92,
+          "pressing_triggers": 2,
+          "inter_line_movements": 1
+        }
+      },
+      {
+        "player_id": "824015",
+        "digital_twin_status": "Inactive/Baseline",
+        "technical_tactical_readiness_table": {
+          "position": "GK",
+          "progressive_passes": 0,
+          "expected_threat_xt": 0,
+          "pass_completion_under_pressure_pct": 0,
+          "successful_dribbles": 0,
+          "box_entries": 0,
+          "heatmap_avg_position": "N/A",
+          "packing_rate": 0,
+          "defensive_compactness_pct": 0,
+          "pressing_triggers": 0,
+          "inter_line_movements": 0
+        }
+      },
+      {
+        "player_id": "824016",
+        "digital_twin_status": "Inactive/Baseline",
+        "technical_tactical_readiness_table": {
+          "position": "CB",
+          "progressive_passes": 0,
+          "expected_threat_xt": 0,
+          "pass_completion_under_pressure_pct": 0,
+          "successful_dribbles": 0,
+          "box_entries": 0,
+          "heatmap_avg_position": "N/A",
+          "packing_rate": 0,
+          "defensive_compactness_pct": 0,
+          "pressing_triggers": 0,
+          "inter_line_movements": 0
+        }
+      },
+      {
+        "player_id": "824017",
+        "digital_twin_status": "Inactive/Baseline",
+        "technical_tactical_readiness_table": {
+          "position": "LB",
+          "progressive_passes": 0,
+          "expected_threat_xt": 0,
+          "pass_completion_under_pressure_pct": 0,
+          "successful_dribbles": 0,
+          "box_entries": 0,
+          "heatmap_avg_position": "N/A",
+          "packing_rate": 0,
+          "defensive_compactness_pct": 0,
+          "pressing_triggers": 0,
+          "inter_line_movements": 0
+        }
+      },
+      {
+        "player_id": "824018",
+        "digital_twin_status": "Inactive/Baseline",
+        "technical_tactical_readiness_table": {
+          "position": "CDM",
+          "progressive_passes": 0,
+          "expected_threat_xt": 0,
+          "pass_completion_under_pressure_pct": 0,
+          "successful_dribbles": 0,
+          "box_entries": 0,
+          "heatmap_avg_position": "N/A",
+          "packing_rate": 0,
+          "defensive_compactness_pct": 0,
+          "pressing_triggers": 0,
+          "inter_line_movements": 0
+        }
+      },
+      {
+        "player_id": "824019",
+        "digital_twin_status": "Inactive/Baseline",
+        "technical_tactical_readiness_table": {
+          "position": "AM",
+          "progressive_passes": 0,
+          "expected_threat_xt": 0,
+          "pass_completion_under_pressure_pct": 0,
+          "successful_dribbles": 0,
+          "box_entries": 0,
+          "heatmap_avg_position": "N/A",
+          "packing_rate": 0,
+          "defensive_compactness_pct": 0,
+          "pressing_triggers": 0,
+          "inter_line_movements": 0
+        }
+      },
+      {
+        "player_id": "824020",
+        "digital_twin_status": "Inactive/Baseline",
+        "technical_tactical_readiness_table": {
+          "position": "ST",
+          "progressive_passes": 0,
+          "expected_threat_xt": 0,
+          "pass_completion_under_pressure_pct": 0,
+          "successful_dribbles": 0,
+          "box_entries": 0,
+          "heatmap_avg_position": "N/A",
+          "packing_rate": 0,
+          "defensive_compactness_pct": 0,
+          "pressing_triggers": 0,
+          "inter_line_movements": 0
+        }
+      },
+      {
+        "player_id": "824021",
+        "digital_twin_status": "Inactive/Baseline",
+        "technical_tactical_readiness_table": {
+          "position": "RW",
+          "progressive_passes": 0,
+          "expected_threat_xt": 0,
+          "pass_completion_under_pressure_pct": 0,
+          "successful_dribbles": 0,
+          "box_entries": 0,
+          "heatmap_avg_position": "N/A",
+          "packing_rate": 0,
+          "defensive_compactness_pct": 0,
+          "pressing_triggers": 0,
+          "inter_line_movements": 0
+        }
+      },
+      {
+        "player_id": "824022",
+        "digital_twin_status": "Inactive/Baseline",
+        "technical_tactical_readiness_table": {
+          "position": "CB",
+          "progressive_passes": 0,
+          "expected_threat_xt": 0,
+          "pass_completion_under_pressure_pct": 0,
+          "successful_dribbles": 0,
+          "box_entries": 0,
+          "heatmap_avg_position": "N/A",
+          "packing_rate": 0,
+          "defensive_compactness_pct": 0,
+          "pressing_triggers": 0,
+          "inter_line_movements": 0
+        }
+      }
+    ]
+  }
+}
+```
+
 **Observed effect:** Successfully distinguishes between "Starting" players and "Sub" players (IDs with 0 values).
 
 **Lesson learned:** Forcing a 1:1 ID-to-Table ratio is the only way to ensure the data is "Digital Twin" ready for frontend injection.
